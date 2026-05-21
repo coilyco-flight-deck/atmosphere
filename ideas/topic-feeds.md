@@ -6,6 +6,14 @@
 
 **Status** - first real app. Tracked in [agentic-os-kai#675](https://github.com/coilysiren/agentic-os-kai/issues/675). Lands in `apps/feeds/`.
 
+**Candidate feeds** - one idea file per topic, drawn from Kai's Obsidian interest profile (educational reading lists, productive logs, Bluesky timeline themes):
+
+- Tier 1 - [feed-atproto-dev](feed-atproto-dev.md), [feed-agent-engineering](feed-agent-engineering.md), [feed-observability](feed-observability.md)
+- Tier 2 - [feed-platform-eng](feed-platform-eng.md), [feed-homelab-k8s](feed-homelab-k8s.md), [feed-supply-chain-sec](feed-supply-chain-sec.md)
+- Tier 3 - [feed-go-cli](feed-go-cli.md), [feed-ai-infra](feed-ai-infra.md)
+
+`feed-atproto-dev` is the recommended prototype-first feed.
+
 **Open questions**
 
 - Topic list. Pull candidates from the current-interest profile that `daily-educational` ranks against, so feeds and reading list stay aligned.
