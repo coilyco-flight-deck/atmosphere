@@ -84,10 +84,10 @@ Timeline and search results show:
 
 ## Installation
 
-The script uses PEP-723 inline metadata, so `uv` resolves dependencies on first run with no persistent venv:
+Dependencies are pinned in `requirements.txt`. Run via `uv` without a persistent venv:
 
 ```bash
-uv run {baseDir}/scripts/bsky.py [command]
+uv run --with-requirements {baseDir}/requirements.txt {baseDir}/scripts/bsky.py [command]
 ```
 
 If `uv` is unavailable, fall back to system Python:

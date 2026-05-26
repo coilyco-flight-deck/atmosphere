@@ -1,11 +1,10 @@
-#!/usr/bin/env -S uv run --script
-# /// script
-# requires-python = ">=3.10"
-# dependencies = [
-#   "atproto>=0.0.65,<0.1.0",
-# ]
-# ///
-"""Bluesky CLI - bird-like interface for Bluesky/AT Protocol"""
+#!/usr/bin/env python3
+"""Bluesky CLI - bird-like interface for Bluesky/AT Protocol.
+
+Run with ``uv run --with 'atproto>=0.0.65,<0.1.0' scripts/bsky.py``
+or after ``pip install -r requirements.txt``. The skill's
+requirements.txt is the source of truth for dependency pins.
+"""
 
 import argparse
 import json
