@@ -29,3 +29,11 @@ Drop a markdown file into `ideas/`. Name it whatever. Do not overthink it. See `
 - [atproto.com](https://atproto.com) - the canonical protocol spec, lexicons, identity.
 - [docs.bsky.app](https://docs.bsky.app) - Bluesky developer docs, feed generator guide.
 - [bluesky-social/feed-generator](https://github.com/bluesky-social/feed-generator) - official feed generator starter.
+
+## See also
+
+- [AGENTS.md](AGENTS.md) - agent instructions.
+- [docs/FEATURES.md](docs/FEATURES.md) - inventory of what ships today.
+- [.coily/coily.yaml](.coily/coily.yaml) - allowlisted commands.
+
+Cross-reference convention from [coilysiren/agentic-os#59](https://github.com/coilysiren/agentic-os/issues/59).

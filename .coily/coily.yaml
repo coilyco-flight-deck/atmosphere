@@ -1,0 +1,17 @@
+# Marker file. atmosphere is a docs/ideas incubator monorepo with no build
+# verbs yet, so commands: is empty. Presence of this file classifies the
+# repo as deployment-of-one for the GH-issues-disable sweep.
+
+commands: {}
+
+# Catalog metadata for the cross-repo knowledge graph.
+# Schema: coilysiren/agentic-os-kai#420 (tracker).
+catalog:
+  kind: Component
+  type: research
+  system: atproto
+  owner: kai
+  lifecycle: experimental
+  dependsOn: []
+  providesApis: []
+  description: "Incubator monorepo for AT Protocol / Bluesky Atmosphere apps and experiments."
