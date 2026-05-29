@@ -1,0 +1,19 @@
+repos:
+  # BEGIN managed by agentic-os/scripts/apply-agentic-os-hooks.py
+  - repo: https://github.com/coilysiren/agentic-os
+    rev: v0.8.0
+    hooks:
+      # Deferred until atmosphere is brought into compliance (see #11):
+      # catalog-doc-size, catalog-trifecta, documentation-layout. Re-add once
+      # ideas/, reference/, the writing-bluesky skill layout, and the AGENTS.md
+      # standard sections are cleaned up.
+      - id: code-comments
+      - id: catalog-block-present
+      - id: validate-skills
+      - id: dead-cross-links
+      - id: repo-pointer-skills
+      - id: closes-issue
+      - id: conventional-commit
+      - id: trufflehog
+      - id: coily-trailer
+  # END managed by agentic-os/scripts/apply-agentic-os-hooks.py
