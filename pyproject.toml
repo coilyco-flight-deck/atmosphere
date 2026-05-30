@@ -1,0 +1,14 @@
+[tool.agentic-os.documentation-layout]
+# atmosphere is an incubator. Idea dumps, per-app docs, ecosystem reference
+# notes, and the bundled writing-bluesky skill (which ships scripts/ + tests/)
+# live in nested trees that the root/docs/skill-flat layout rules do not cover.
+# Exempt them; real content stays put. See coilysiren/atmosphere#15.
+excludes = [
+  "ideas/**",
+  "apps/**",
+  "reference/**",
+  ".agents/skills/**",
+]
+
+[tool.agentic-os.context-load-points]
+enabled = true
