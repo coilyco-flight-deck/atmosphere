@@ -4,7 +4,7 @@
 
 **Why it fits the Atmosphere** - feed generator. A small HTTP service that consumes the Jetstream firehose and returns a ranked list of post URIs per topic. One service, N topic feeds.
 
-**Status** - first real app. Tracked in [agentic-os-kai#675](https://github.com/coilysiren/agentic-os-kai/issues/675). Lands in `apps/feeds/`.
+**Status** - first real app. Tracked in [agentic-os-kai#675](https://github.com/coilyco-bridge/agentic-os-kai/issues/675). Lands in `apps/feeds/`.
 
 **Candidate feeds** - one idea file per topic, drawn from Kai's Obsidian interest profile (educational reading lists, productive logs, Bluesky timeline themes):
 

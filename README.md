@@ -36,4 +36,4 @@ Drop a markdown file into `ideas/`. Name it whatever. Do not overthink it. See `
 - [docs/FEATURES.md](docs/FEATURES.md) - inventory of what ships today.
 - [.coily/coily.yaml](.coily/coily.yaml) - allowlisted commands.
 
-Cross-reference convention from [coilysiren/agentic-os#59](https://github.com/coilysiren/agentic-os/issues/59).
+Cross-reference convention from [coilysiren/agentic-os#59](https://github.com/coilyco-flight-deck/agentic-os/issues/59).
