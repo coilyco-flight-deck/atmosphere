@@ -8,8 +8,8 @@ Source of the category list: `reference/atproto-ecosystem.md`.
 - **Clients** - alternative front doors for Bluesky. Seed: [clients](clients.md).
 - **Long-form / publishing** - covered by [whitewind-blog](whitewind-blog.md).
 - **Link aggregation / forums** - covered by [front-page](front-page.md).
-- **Photo** - parked. Kai is not interested as a consumer surface. The only live angle is the Kapwing integration, covered by [kapwing-atproto-media](kapwing-atproto-media.md).
-- **Video / streaming** - parked, same reasoning as photo. See [kapwing-atproto-media](kapwing-atproto-media.md).
+- **Photo** - parked. Kai is not interested as a consumer surface. The only live angle is the media-editor integration, covered by [media-editor-atproto-media](media-editor-atproto-media.md).
+- **Video / streaming** - parked, same reasoning as photo. See [media-editor-atproto-media](media-editor-atproto-media.md).
 - **Reviews / tracking** - Letterboxd-for-X shape. Seed: [reviews-tracking](reviews-tracking.md).
 - **Events** - RSVPs, calendars. Seed: [events](events.md).
 - **Dev tools** - Tangled and the developer-workflow surface. Seed: [dev-tools](dev-tools.md).
