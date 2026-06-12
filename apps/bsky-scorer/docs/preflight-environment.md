@@ -32,7 +32,7 @@ The scorer reaches Ollama on the host `kai-desktop-tower`. The chart configmap's
 
 ## Telemetry
 
-`/coilysiren/honeycomb/api-key` and `/coilysiren/signoz/ts-authkey` already exist in SSM. The OTel collector endpoint is env-driven.
+`/coilysiren/signoz/ts-authkey` already exists in SSM. The OTel collector endpoint is env-driven. (The former `/coilysiren/honeycomb/api-key` was deleted in the 2026-06-11 SSM audit - SigNoz is the telemetry target.)
 
 ## Secrets and SSM
 
