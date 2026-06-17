@@ -19,7 +19,7 @@ Self-contained public incubator. Apps share plumbing (lexicons, identity, PDS cl
 
 ## Commands
 
-Route dev commands through coily (see [.coily/coily.yaml](.coily/coily.yaml)); bare `make` / `uv` / `python` are denied by lockdown. The `commands:` block is empty until real apps land - add build/test verbs there before invoking them.
+Route dev commands through ward, which reads [`.ward/ward.yaml`](.ward/ward.yaml) (run verbs with `ward exec <verb>`); bare `make` / `uv` / `python` are denied by lockdown. The `commands:` block is empty until real apps land - add build/test verbs there before invoking them.
 
 ## Validation
 
@@ -45,6 +45,7 @@ She/her for Kai in every artifact. Keep docs within catalog size caps. Place new
 
 - [README.md](README.md) - human-facing intro.
 - [docs/FEATURES.md](docs/FEATURES.md) - inventory of what ships today.
-- [.coily/coily.yaml](.coily/coily.yaml) - allowlisted commands.
+- [.ward/ward.yaml](.ward/ward.yaml) - allowlisted commands (`ward exec <verb>`).
+- [.coily/coily.yaml](.coily/coily.yaml) - retained during migration.
 
 Cross-reference convention from [coilysiren/agentic-os#59](https://github.com/coilyco-flight-deck/agentic-os/issues/59).
